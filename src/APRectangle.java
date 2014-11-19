@@ -50,8 +50,11 @@ public class APRectangle {
         return topLeft.getY() + width;
     }
 
-    public APRectangle shrink(double percentage) {
-        return new APRectangle(topLeft, height * (percentage / 100), width / (percentage / 100));
+    public void shrink(double percentage) {
+        setHeight(height * (percentage / 100));
+        setWidth(width * (percentage / 100));
     }
+
+
 
 }
