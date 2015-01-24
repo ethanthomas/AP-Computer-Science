@@ -8,7 +8,6 @@ public class BillImplementation {
 
     public static void main(String[] args) {
 
-
         ArrayList<CheckItem> billList = new ArrayList<CheckItem>();
 
         billList.add(new CheckItem(10.342, "Tuna", 1));
@@ -21,6 +20,5 @@ public class BillImplementation {
 
         bill.getBill();
     }
-
 
 }

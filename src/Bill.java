@@ -16,7 +16,6 @@ public class Bill {
             tip = tipPercentage;
     }
 
-
     public void getBill() {
 
         for (int i = 0; i < bill.size(); i++) {
@@ -33,7 +32,6 @@ public class Bill {
         itemTotalWithTax /= 100;
 
         System.out.println("Sub-Total: " + itemTotalBeforeTax);
-
         System.out.println("\nTotal: " + itemTotalWithTax);
 
     }
